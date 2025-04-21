@@ -1,7 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
-import { GoogleSignin } from '@react-native-google-signin/google-signin';
-import auth from '@react-native-firebase/auth';
+import { signOut } from '../services/firebase';
 
 export const HomeScreen = () => {
   const handleSignOut = async () => {
@@ -9,17 +8,6 @@ export const HomeScreen = () => {
       await signOut();
     } catch (error) {
       console.error('Sign out error:', error);
-    }
-  };
-
- const signOut = async () => {
-    try {
-      await GoogleSignin.revokeAccess();
-      await GoogleSignin.signOut();
-      await auth().signOut();
-    } catch (error) {
-      console.error(error);
-      throw error;
     }
   };
 
