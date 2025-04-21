@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "730822116943",
+    "project_id": "effitube-6e44c",
+    "storage_bucket": "effitube-6e44c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730822116943:android:7d4afe8e6f8c016f3f0c3a",
+        "android_client_info": {
+          "package_name": "com.effitube"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730822116943-n9umcbpigksfqeev3gdls5ev1vep2s6a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.effitube",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "730822116943-p33cr2huft9p9843v5aat2hdvs1qn4lg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzO6F4yhSaWpEsctSX1HkkzQ84Z0mgG3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730822116943-p33cr2huft9p9843v5aat2hdvs1qn4lg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
