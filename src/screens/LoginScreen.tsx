@@ -38,7 +38,8 @@ export const LoginScreen = () => {
         disabled={loading}
       >
         <Image
-          source={{ uri: 'https://developers.google.com/identity/images/g-logo.png' }}
+          // source={{ uri: 'https://developers.google.com/identity/images/g-logo.png' }}
+          source={require('../../android/app/src/main/assets/g-logo.png')}
           style={styles.googleIcon}
         />
         {loading ? (
